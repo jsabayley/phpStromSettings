@@ -25,6 +25,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="1984a830-41e4-4d04-b24b-aba84783a58d" name="London Bridge Experience" url="http://lbe.ims-systems.org">
+        <fileTransfer host="ftp.lbe.ims-systems.org" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
