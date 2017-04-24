@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a8b0c0f0-3e12-4ee4-85cd-cb3314c626f6" name="The Games Room" url="http://www.tgrms.com">
+        <fileTransfer host="ftp.tgrms.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="906f891e-7a70-482d-b017-686760553a77" name="CastlePoint" url="http://castlepoint.eurolabelprinters.com">
+        <fileTransfer host="ftp.castlepoint.eurolabelprinters.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9faee80e-090c-49bb-a1a0-d5fef6129b6e" name="EuroIMS" url="http://ims.eurolabelprinters.com">
+        <fileTransfer host="ftp.ims.eurolabelprinters.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

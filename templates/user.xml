@@ -1,0 +1,12 @@
+<templateSet group="user">
+  <template name="swi" value="switch (n) {&#10;    case label1:&#10;        //codeFor1;&#10;        break;&#10;    case label2:&#10;        //codeFor2;&#10;        break;&#10;    case label3:&#10;        codeFor3;&#10;        break;&#10;    ...&#10;    default:&#10;        //defaultCode;&#10;} " description="php switch()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="log" value="console.log();" description="concole.log()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
