@@ -33,6 +33,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="3a6f4db7-7005-4c19-a3f2-f95911715e75" name="Fenland" url="http://fenland.eurolabelprinters.com">
+        <fileTransfer host="ftp.fenland.eurolabelprinters.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
