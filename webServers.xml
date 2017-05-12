@@ -41,6 +41,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="9916f6bd-8a38-4db6-a4bd-c1378e5781c3" name="Highland" url="https://highland.eurolabelprinters.com">
+        <fileTransfer host="shell.gridhost.co.uk" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
